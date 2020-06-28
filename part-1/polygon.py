@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 import sys
 import numpy as np
-from typing import Union
+from typing import Any, Union, NoReturn
 from os import EX_DATAERR
 
 
-def _read(q, s):
+def _read(q: Any, s: Any) -> str:
     return input(f'{q}{s}')
 
 
@@ -47,7 +47,7 @@ def calc_side_length(x: list, y: list) -> Union[int, float]:
     return res
 
 
-def main():
+def main() -> NoReturn:
     value: str = _read('Polygon with how much corners ?\n', '>> ')
     corners: int = _check_input(value)
 
