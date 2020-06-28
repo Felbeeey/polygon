@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 from typing import Union
 import numpy as np
-from collections import namedtuple
-
-Coordinate = namedtuple('Coordinate', ['x', 'y'])
 
 
 def _read(q, s):
@@ -75,8 +72,6 @@ def main():
 
     print(f'Your polygon has an area of: {calc_area(x_coordinates, y_coordinates)}')
     print(f'Your polygon has an border length of: { calc_side_length(x_coordinates, y_coordinates)}')
-
-    calc_side_length(x_coordinates, y_coordinates)
 
 
 if __name__ == '__main__':
