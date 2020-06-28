@@ -2,7 +2,7 @@
 import sys
 from typing import Union
 import numpy as np
-from os import spawnvpe, EX_DATAERR
+from os import EX_DATAERR
 
 
 def _read(q, s):
