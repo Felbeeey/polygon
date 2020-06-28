@@ -16,7 +16,7 @@ In the following document it was claimed that to solve this problem P<sub>n</sub
 If you performed each step of the calculation individually, that would be theoretically correct.
 Here, however, it was solved differently for the sake of simplicity.
 
-[Here is part 1](https://github.com/timrabl/polygon/tree/master/part-1 "@TimRabl's polygon GitHub Repository")
+[continue to part-1](https://github.com/timrabl/polygon/tree/master/part-1 "part-1 folder of this repository")
 
 
 #### Part 1:
