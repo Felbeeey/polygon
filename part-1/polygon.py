@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
+import sys
 from typing import Union
 import numpy as np
+from os import spawnvpe, EX_DATAERR
 
 
 def _read(q, s):
@@ -19,7 +21,7 @@ def _check_input(input_value: Union[int, float, str]) -> Union[int, float]:
             input_value = int(input_value)
         except (AssertionError, ValueError):
             print(f'{input_value} is invalid !')
-            exit(8)
+            sys.exit(EX_DATAERR)
         return input_value
 
 
@@ -54,7 +56,7 @@ def main():
         if corners in (1, -1):
             flag: str = ''
         print(f'Polygon with {corners} corner{flag} ??')
-        exit(8)
+        sys.exit(EX_DATAERR)
 
     x_coordinates: list = []
     y_coordinates: list = []
