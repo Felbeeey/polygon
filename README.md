@@ -19,6 +19,6 @@ Here, however, it was solved differently for the sake of simplicity.
 [continue to part-1](https://github.com/timrabl/polygon/tree/master/part-1 "part-1 folder of this repository")
 
 
-#### Part 1:
+#### Part 2:
 
 COMING SOON
