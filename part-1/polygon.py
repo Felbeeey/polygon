@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
-from typing import Union
 import numpy as np
+from typing import Union
 from os import EX_DATAERR
 
 
